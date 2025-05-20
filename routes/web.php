@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
@@ -28,6 +29,7 @@ Route::post('/toggle-theme', function (Request $request) {
     return response()->json(['status' => 'ok']);
 });
 
+<<<<<<< HEAD
 // Dashboard Routes (Protected with Auth Middleware)
 Route::middleware(['auth'])->group(function () {
 
@@ -101,3 +103,16 @@ Route::middleware(['auth'])->group(function () {
 // Optional test route
 Route::get('/test-admin-middleware', fn() => "✔️ You passed the admin middleware.")
     ->middleware(['web', 'auth', AdminMiddleware::class]);
+=======
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+require __DIR__.'/auth.php';
+>>>>>>> d36a851 (Install Breeze)
