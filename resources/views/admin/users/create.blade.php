@@ -44,25 +44,29 @@
         <div class="card p-4 shadow mx-auto" style="max-width: 450px;">
             <div class="mb-3">
                 <label for="full_name" class="form-label">Full Name</label>
-                <input type="text" class="form-control @error('full_name') is-invalid @enderror" id="full_name" name="full_name" value="{{ old('full_name') }}" required>
+                <input type="text" class="form-control @error('full_name') is-invalid @enderror"
+                       id="full_name" name="full_name" value="{{ old('full_name') }}" required>
                 @error('full_name') <div class="invalid-feedback">{{ $message }}</div> @enderror
             </div>
 
             <div class="mb-3">
                 <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email') }}" required>
+                <input type="email" class="form-control @error('email') is-invalid @enderror"
+                       id="email" name="email" value="{{ old('email') }}" required>
                 @error('email') <div class="invalid-feedback">{{ $message }}</div> @enderror
             </div>
 
             <div class="mb-3">
                 <label for="student_id" class="form-label">Student ID</label>
-                <input type="text" class="form-control @error('student_id') is-invalid @enderror" id="student_id" name="student_id" value="{{ old('student_id') }}">
+                <input type="text" class="form-control @error('student_id') is-invalid @enderror"
+                       id="student_id" name="student_id" value="{{ old('student_id') }}">
                 @error('student_id') <div class="invalid-feedback">{{ $message }}</div> @enderror
             </div>
 
             <div class="mb-3">
                 <label for="class_code" class="form-label">Class Code</label>
-                <input type="text" class="form-control @error('class_code') is-invalid @enderror" id="class_code" name="class_code" value="{{ old('class_code') }}">
+                <input type="text" class="form-control @error('class_code') is-invalid @enderror"
+                       id="class_code" name="class_code" value="{{ old('class_code') }}">
                 @error('class_code') <div class="invalid-feedback">{{ $message }}</div> @enderror
             </div>
 
@@ -80,7 +84,8 @@
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
                 <div class="input-group">
-                    <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" name="password" required>
+                    <input type="password" class="form-control @error('password') is-invalid @enderror"
+                           id="password" name="password" required>
                     <button type="button" class="btn btn-outline-secondary" onclick="togglePassword()">👁️</button>
                 </div>
                 @error('password') <div class="invalid-feedback d-block">{{ $message }}</div> @enderror
@@ -88,7 +93,8 @@
 
             <div class="mb-3">
                 <label for="password_confirmation" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" required>
+                <input type="password" class="form-control"
+                       id="password_confirmation" name="password_confirmation" required>
             </div>
 
             <div class="d-flex justify-content-between">

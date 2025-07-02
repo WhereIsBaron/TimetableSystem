@@ -5,10 +5,14 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "5f006a3b49f5b454b515ef9f77ee4562",
 =======
     "content-hash": "0115dbddccf0cd5bb3f8d9794226947f",
 >>>>>>> d36a851 (Install Breeze)
+=======
+    "content-hash": "5f006a3b49f5b454b515ef9f77ee4562",
+>>>>>>> 2803eda (Initial push with updated license and README)
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",

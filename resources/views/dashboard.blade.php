@@ -1,47 +1,37 @@
-<<<<<<< HEAD
-<?php
+@extends('layouts.app')
 
-namespace App\Http\Controllers\Student;
+@section('title', 'Dashboard')
 
-use App\Http\Controllers\Controller;
-use App\Models\Timetable;
-use Illuminate\Support\Facades\Auth;
+@section('content')
+<div class="card shadow mb-4">
+    <div class="card-body">
+        <p class="mb-0 text-muted">You are logged in as <strong>{{ ucfirst(auth()->user()->role) }}</strong>.</p>
+    </div>
+</div>
 
-class StudentDashboardController extends Controller
-{
-    public function index()
-    {
-        $user = Auth::user();
-
-        if (!$user->class_code) {
-            return view('student.dashboard', ['timetables' => collect()]);
-        }
-
-        $timetables = Timetable::with(['classCode', 'lecturer'])
-            ->whereHas('classCode', fn($q) => $q->where('code', $user->class_code))
-            ->orderBy('day')
-            ->orderBy('slot_number')
-            ->get();
-
-        return view('student.dashboard', compact('timetables'));
-    }
-}
-=======
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
-
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900 dark:text-gray-100">
-                    {{ __("You're logged in!") }}
-                </div>
+<div class="row g-3">
+    <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h6 class="card-title text-muted fw-semibold">👥 User Summary</h6>
+                <p class="mb-1">
+                    <strong>Total Users:</strong> {{ \App\Models\User::count() }}
+                </p>
+                <p>
+                    <strong>Admins:</strong> {{ \App\Models\User::where('role', 'is_admin')->count() }}
+                </p>
             </div>
         </div>
     </div>
-</x-app-layout>
->>>>>>> d36a851 (Install Breeze)
+
+    <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h6 class="card-title text-muted fw-semibold">🕓 Recent Activity</h6>
+                <p class="mb-1">📌 Feature rollout on {{ now()->subDays(1)->format('M d, Y') }}</p>
+                <p class="mb-0">🗂️ Updated layout system</p>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
