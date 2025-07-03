@@ -1,52 +1,84 @@
 🧠 TimeTable Schedule
+Welcome to TimeTable Schedule – a Laravel-based timetable automation system for managing student schedules, class groupings, and role-based access.
 
-Welcome to TimeTable Schedule – a full-stack application built with Laravel and React. It automates student timetables with intelligent scheduling, user group management, and a modern, interactive user experience.
+This is a solo-developed portfolio project by Andrew Peter John Langeveldt.
 
-This is a solo coding project – part of my personal learning and portfolio. While it’s private in contribution, it’s public in transparency: feel free to look around, learn from the code, or just vibe with how I build things.
 🚀 Tech Stack
+Backend: Laravel (Blade templating, MVC architecture)
 
-    Backend: Laravel
-    Frontend: PHP (with React & Tailwind + Bootstrap for UI)
-    Database: MySQL
-    Auth: Laravel Breeze / Sanctum
-    UI Mode: Light/Dark toggle system
-    Extras: Role-based access, admin dashboards, class-based user grouping
+Frontend: Laravel Blade views with Bootstrap 5 for styling
+
+Database: MySQL
+
+Authentication: Laravel Breeze
+
+UI Features: Toggleable Light/Dark mode (Bootstrap based)
+
+Other Features:
+✅ Role-based dashboards (Admin, Faculty Admin, Lecturer, Student)
+✅ Timetable management per class code
+✅ Timetable conflict detection
+✅ PDF timetable exports via DomPDF
 
 🔥 Features
+🔐 Secure Laravel authentication
 
-    🔐 Secure Laravel + React-based authentication
-    👥 Role-based user and admin panel
-    📅 Timetable auto-generation per class code
-    🌗 Toggleable dark/light UI mode
-    📊 React dashboard with data visualizations
+👥 Role-based user, admin, faculty, lecturer, and student management
 
-🙋🏽‍♂️ Why This Exists
+📅 Timetable creation with conflict checks
 
-This project is part of my development growth and portfolio showcase. I'm not seeking contributors — this is a self-coded project.
+🧑‍🏫 Lecturer-specific timetable view and export
 
-However, you're more than welcome to:
+🧑‍🎓 Student class timetable view with PDF export
 
-    Review and learn from the structure
-    Offer suggestions
-    See how Laravel and React work together in real-world apps
+⚡ Admin tools for user, timetable, and class management
 
-📌 Usage Terms
+🌗 Light/Dark mode toggle for UI comfort
 
-    This repository is made public for visibility and educational purposes only.
+⚠️ Timetable conflict detection to prevent overlaps
 
-    ❌ No reuse of code
-    ❌ No redistribution
-    ❌ No modification or republishing
-    ❌ Not licensed for commercial or open-source adaptation
+🙋🏽‍♂️ Purpose & Status
+This project is part of my personal learning journey and portfolio showcase.
+It is available publicly for educational reference and visibility only.
 
-🔒 All rights reserved.
-If you'd like to use any part of this project, contact me first. (Pending)
+I am not seeking collaborators or contributions at this time, but feel free to:
+
+✅ Explore the structure for learning purposes
+✅ Understand Laravel with Blade and Bootstrap integration
+✅ Provide general suggestions or feedback (optional)
+
+📌 License — Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+You are free to:
+
+✅ Share — copy and redistribute the material in any medium or format
+✅ Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+
+Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. Credit must clearly state:
+Author: Andrew Peter John Langeveldt
+Contact: andrewpjlangeveldt@gmail.com or barontc@gmail.com
+
+NonCommercial: You may not use the material for commercial purposes. Commercial use, including but not limited to selling, sublicensing, or using this software in commercial products, is strictly prohibited without prior written consent from the author.
+
+No Additional Restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+💼 Commercial Licensing
+For any commercial use or distribution, you must first obtain a commercial license from the author. Contact:
+📧 andrewpjlangeveldt@gmail.com
+📧 barontc@gmail.com
+
+⚠️ License Subject to Change
+The license terms may be updated, modified, or replaced by the author at any time without prior notice.
+Always check the repository or contact the author for the latest licensing terms.
+
+Full License Text: https://creativecommons.org/licenses/by-nc/4.0/
+
 👀 Want to Follow Along?
+If you find this project interesting:
 
-If you find the concept interesting or the implementation helpful:
+⭐ Star the repository
+🧩 Reach out for technical discussions
+💬 Provide constructive feedback
 
-    ⭐ Star the repo
-    🧩 Reach out for insights
-    💬 Share feedback
-
-    Coded solo with curiosity, caffeine, and late-night debugging.
+Coded solo with Laravel, coffee, and dedication.
