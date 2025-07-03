@@ -1,3 +1,5 @@
+// REPLACED BY model/Timetable.php
+
 <?php
 
 namespace App\Models;
