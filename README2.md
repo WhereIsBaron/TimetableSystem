@@ -28,7 +28,6 @@ Other Features:
 ✅ PDF timetable exports via DomPDF
 ______________________________________________________________________________________________________________________________________________
 
-
 🔥 **Features**
 
 🔐 Secure Laravel authentication
@@ -48,7 +47,6 @@ ________________________________________________________________________________
 ⚠️ Timetable conflict detection to prevent overlaps
 ______________________________________________________________________________________________________________________________________________
 
-
 🙋🏽‍♂️ **Purpose & Status**
 
 This project is part of my personal learning journey and portfolio showcase.
@@ -63,24 +61,23 @@ I am not seeking collaborators or contributions at this time, but feel free to:
 ✅ Provide general suggestions or feedback (optional)
 ______________________________________________________________________________________________________________________________________________
 
-
 📌 **License — Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
 
-You are free to:
+**You are free to**:
 
 ✅ Share — copy and redistribute the material in any medium or format
 
 ✅ Adapt — remix, transform, and build upon the material
 
-Under the following terms:
+**Under the following terms**:
 
-Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. Credit must clearly state:
+**Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made. Credit must clearly state:
 
-Author: Andrew Peter John Langeveldt
+**Author**: Andrew Peter John Langeveldt
 
-Contact: andrewpjlangeveldt@gmail.com or barontc@gmail.com
+**Contact**: andrewpjlangeveldt@gmail.com or barontc@gmail.com
 
-NonCommercial: You may not use the material for commercial purposes. Commercial use, including but not limited to selling, sublicensing, or using this software in commercial products, is strictly prohibited without prior written consent from the author.
+**NonCommercial**: You may not use the material for commercial purposes. Commercial use, including but not limited to selling, sublicensing, or using this software in commercial products, is strictly prohibited without prior written consent from the author.
 
 No Additional Restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 ______________________________________________________________________________________________________________________________________________
