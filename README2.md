@@ -61,43 +61,32 @@ I am not seeking collaborators or contributions at this time, but feel free to:
 ✅ Provide general suggestions or feedback (optional)
 ______________________________________________________________________________________________________________________________________________
 
-📌 **License — Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
+📌 **License**
 
-**You are free to**:
+Copyright (c) 2024 Andrew Peter John Langeveldt  
+Email: andrewpjlangeveldt@gmail.com  
+Alt Email: barontc@gmail.com
 
-✅ Share — copy and redistribute the material in any medium or format
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, study, and modify the Software **for personal and non-commercial purposes only**, subject to the following conditions:
 
-✅ Adapt — remix, transform, and build upon the material
+1. **Non-Commercial Use**: Commercial use of this software is **not permitted** without prior written permission and/or a commercial license granted by the author.
 
-**Under the following terms**:
+2. **Attribution**: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made. Credit must clearly state:
+3. **No Redistribution**: You may not publish, distribute, sublicense, or sell modified or unmodified copies of the Software without explicit permission.
 
-**Author**: Andrew Peter John Langeveldt
+4. **No Claim of Ownership**: You may not claim ownership or authorship of this Software, whether modified or unmodified.
 
-**Contact**: andrewpjlangeveldt@gmail.com or barontc@gmail.com
+5. **No Warranty**: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
-**NonCommercial**: You may not use the material for commercial purposes. Commercial use, including but not limited to selling, sublicensing, or using this software in commercial products, is strictly prohibited without prior written consent from the author.
+6. **License Subject to Change**: This license is subject to change in future versions at the discretion of the author.
 
-No Additional Restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-______________________________________________________________________________________________________________________________________________
+---
 
-💼 **Commercial Licensing**
+By using this software, you agree to these terms.
 
-For any commercial use or distribution, you must first obtain a commercial license from the author. Contact:
-
-📧 andrewpjlangeveldt@gmail.com
-
-📧 barontc@gmail.com
-______________________________________________________________________________________________________________________________________________
-
-⚠️ **License Subject to Change**
-
-The license terms may be updated, modified, or replaced by the author at any time without prior notice.
-
-Always check the repository or contact the author for the latest licensing terms.
-
-Full License Text: https://creativecommons.org/licenses/by-nc/4.0/
+For commercial inquiries or licensing requests, contact:  
+📧 andrewpjlangeveldt@gmail.com or barontc@gmail.com
 ______________________________________________________________________________________________________________________________________________
 
 👀 Want to Follow Along?
