@@ -3,6 +3,7 @@
 Welcome to TimeTable Schedule System – a Laravel-based timetable automation system for managing student schedules, class groupings, and role-based access.
 
 This is a solo-developed portfolio project by Andrew Peter John Langeveldt.
+______________________________________________________________________________________________________________________________________________
 
 🚀 **Tech Stack**
 
@@ -25,6 +26,7 @@ Other Features:
 ✅ Timetable conflict detection
 
 ✅ PDF timetable exports via DomPDF
+______________________________________________________________________________________________________________________________________________
 
 
 🔥 **Features**
@@ -44,6 +46,7 @@ Other Features:
 🌗 Light/Dark mode toggle for UI comfort
 
 ⚠️ Timetable conflict detection to prevent overlaps
+______________________________________________________________________________________________________________________________________________
 
 
 🙋🏽‍♂️ **Purpose & Status**
@@ -58,6 +61,8 @@ I am not seeking collaborators or contributions at this time, but feel free to:
 ✅ Understand Laravel with Blade and Bootstrap integration
 
 ✅ Provide general suggestions or feedback (optional)
+______________________________________________________________________________________________________________________________________________
+
 
 📌 **License — Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
 
@@ -78,6 +83,7 @@ Contact: andrewpjlangeveldt@gmail.com or barontc@gmail.com
 NonCommercial: You may not use the material for commercial purposes. Commercial use, including but not limited to selling, sublicensing, or using this software in commercial products, is strictly prohibited without prior written consent from the author.
 
 No Additional Restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+______________________________________________________________________________________________________________________________________________
 
 💼 **Commercial Licensing**
 
@@ -86,6 +92,7 @@ For any commercial use or distribution, you must first obtain a commercial licen
 📧 andrewpjlangeveldt@gmail.com
 
 📧 barontc@gmail.com
+______________________________________________________________________________________________________________________________________________
 
 ⚠️ **License Subject to Change**
 
@@ -94,6 +101,7 @@ The license terms may be updated, modified, or replaced by the author at any tim
 Always check the repository or contact the author for the latest licensing terms.
 
 Full License Text: https://creativecommons.org/licenses/by-nc/4.0/
+______________________________________________________________________________________________________________________________________________
 
 👀 Want to Follow Along?
 
