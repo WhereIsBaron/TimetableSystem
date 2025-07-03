@@ -26,7 +26,8 @@ Other Features:
 
 ✅ PDF timetable exports via DomPDF
 
-🔥 Features
+
+🔥 **Features**
 
 🔐 Secure Laravel authentication
 
